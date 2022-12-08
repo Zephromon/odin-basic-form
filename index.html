@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odin-basic-form</title>
+</head>
+<body>
+    <div id="image-container">
+        <div id="logo-container">
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="Line drawing of Odin, God of Wisdom">
+            <div id="logo-name">ODIN</div>
+        </div>
+        <footer>Photo by Halie West on Unsplash</footer>
+    </div>
+    <div id="main-content">
+        <header>
+            <div></div>
+            <div id="hero-container">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+        </header>
+        <form action="">
+            <div id="input-container">
+                <div>Let's do this!</div>
+                <div>
+                    <div class="input-column">
+                        <div class="input">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" required id="first_name">
+                        </div>
+                        <div class="input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" required id="email">
+                        </div>
+                        <div class="input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" minlength="8" maxlength="15" required id="password">
+                        </div>
+                    </div>
+                    <div class="input-column">
+                        <div class="input">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" required id="last_name">
+                        </div>
+                        <div class="input">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="number" required minlength="11" maxlength="11" id="phone_number">
+                        </div>
+                        <div class="input">
+                            <label for="comfirm_password">COMFIRM PASSWORD</label>
+                            <input type="password" minlength="8" maxlength="15" required id="confirm_password">
+                        </div>
+                    </div>
+                    <div class="input-column"></div>
+                </div>
+            </div>
+            <div id="submission-container">
+                <div>
+                    <button type="submit">Create Account</button>
+                    <div id="log-in-text">Already have an account? <a href="">Log in</a></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
